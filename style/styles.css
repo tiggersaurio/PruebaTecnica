@@ -121,3 +121,50 @@ a{
     justify-content: center;
     height: 100vh;
 }
+
+@media(max-width: 500px) {
+    .container{
+        display: initial;
+    }
+    .col {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .tarjeta_principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .report {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contenido_report {
+        margin-right: 10px;
+    }
+
+    .name_report{
+        display: flex;
+        flex-direction: row;
+        font-size: medium;
+        padding: 9px;
+    }
+
+    .user_name{
+        font-size: medium;
+    }
+
+    .image_profile{
+        margin-right: 15px;
+    }
+    
+    .info_profile{
+        margin-top: 12px;
+    }
+}
